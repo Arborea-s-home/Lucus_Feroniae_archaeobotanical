@@ -1,4 +1,4 @@
-# Lucus Feroniae — dataset and web map
+# Lucus Feroniae — dataset
 
 This repository contains repository for all archaeobotanlical occurences from Lucus Feroniae's archeaeological site. The data model has three tables (1→N cascades):
 
