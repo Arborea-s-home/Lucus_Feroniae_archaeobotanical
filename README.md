@@ -60,8 +60,6 @@ Below is a concise field guide you can refine as needed. Names are exactly as th
 | `photo` | text/url | Optional photo reference. |
 | `geometry` | point | Point location (often context centroid) — **GeoJSON only**. |
 
-**Usage tip:** the web map filters samples by `precise_taxon`, by `s_type`, and by the **typology and chronology of their parent context**.
-
 ---
 
 ### B. `contexts` (polygons)
@@ -86,9 +84,6 @@ Below is a concise field guide you can refine as needed. Names are exactly as th
 | `bibliography` | text | Context-level bibliography. |
 | `region` / `province` | text | Administrative info. |
 | `geometry` | polygon | Context polygon — **GeoJSON only**. |
-
-**Notes:**  
-- The **timeline** in the web map normalizes chronology labels (e.g., “Neolitico”, “Età del Bronzo”, “Periodo Imperiale (Roma)”) and filters contexts (and therefore samples and sites) by selected phases, with an option to include **undated** records.
 
 ---
 
